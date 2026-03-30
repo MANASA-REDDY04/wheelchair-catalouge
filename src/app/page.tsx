@@ -70,6 +70,7 @@ export default function Home() {
       </section>
 
       {/* Categories Section */}
+      {/*
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-end mb-10">
@@ -87,7 +88,6 @@ export default function Home() {
               >
                 <div className="w-16 h-16 rounded-full bg-white shadow-sm flex items-center justify-center text-primary group-hover:scale-110 transition-transform overflow-hidden p-3 border border-gray-100">
                   {category.image ? (
-                    /* eslint-disable-next-line @next/next/no-img-element */
                     <img src={category.image} alt={category.name} className="w-full h-full object-contain" />
                   ) : (
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
@@ -99,8 +99,10 @@ export default function Home() {
           </div>
         </div>
       </section>
+      */}
 
       {/* Featured Products */}
+      {/*
       <section className="py-16 bg-bg-alt">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-10 gap-4">
@@ -118,6 +120,29 @@ export default function Home() {
               <ProductCard key={product.id} product={product} />
             ))}
           </div>
+        </div>
+      </section>
+      */}
+
+      {/* Under Construction Banner */}
+      <section className="py-24 bg-bg-alt relative overflow-hidden flex flex-col items-center justify-center">
+        <div className="max-w-3xl mx-auto px-4 text-center relative z-10">
+          <div className="inline-flex items-center justify-center w-24 h-24 rounded-full bg-teal-100 dark:bg-teal-900/40 text-teal-600 dark:text-teal-400 mb-8 relative border border-teal-200 dark:border-teal-800">
+             <div className="absolute inset-0 bg-teal-200 dark:bg-teal-800/40 rounded-full animate-ping opacity-30"></div>
+             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="relative z-10 animate-pulse"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="absolute -bottom-2 -right-2 z-10 text-amber-500 animate-[spin_4s_linear_infinite]"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          </div>
+          <div className="inline-flex items-center gap-2 rounded-full bg-amber-100/80 dark:bg-amber-900/40 border border-amber-200 dark:border-amber-800 px-4 py-1.5 text-sm font-medium text-amber-800 dark:text-amber-400 backdrop-blur-sm mb-6">
+            <span className="relative flex h-2 w-2">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-amber-500"></span>
+            </span>
+            Site Updates in Progress
+          </div>
+          <h2 className="text-4xl font-extrabold text-foreground mb-4">Our Catalog is Curating New Horizons</h2>
+          <p className="text-muted text-lg md:text-xl font-medium mb-8 leading-relaxed max-w-2xl mx-auto">
+            We are carefully updating our extensive range of medical equipment and mobility solutions. Our complete product lineup with new features will be available shortly.
+          </p>
         </div>
       </section>
 

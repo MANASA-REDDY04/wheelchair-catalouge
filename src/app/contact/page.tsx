@@ -52,7 +52,7 @@ export default function ContactPage() {
                 </a>
 
                 <a
-                  href="mailto:a.ekansh@gmail.com"
+                  href="mailto:a.ekansh@yahoo.com"
                   className="w-full flex items-center p-6 bg-orange-50 hover:bg-orange-100 rounded-2xl transition-all shadow-sm group hover:-translate-y-1"
                 >
                   <div className="w-14 h-14 bg-white/60 rounded-xl flex items-center justify-center text-orange-500 mr-5 group-hover:scale-110 transition-transform shadow-sm">
@@ -60,7 +60,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-bold text-foreground text-lg mb-1">Email</h3>
-                    <p className="text-orange-800 font-medium break-all">a.ekansh@gmail.com</p>
+                    <p className="text-orange-800 font-medium break-all">a.ekansh@yahoo.com</p>
                   </div>
                 </a>
               </div>

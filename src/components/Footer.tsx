@@ -24,7 +24,7 @@ export default function Footer() {
                 </svg>
               </a>
               {/* Mail Icon */}
-              <a href="mailto:a.ekansh@gmail.com" className="text-muted hover:text-primary transition-colors">
+              <a href="mailto:a.ekansh@yahoo.com" className="text-muted hover:text-primary transition-colors">
                 <span className="sr-only">Email</span>
                 <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -47,7 +47,7 @@ export default function Footer() {
                 <h3 className="text-sm font-semibold text-foreground tracking-wider uppercase">Contact Info</h3>
                 <ul className="mt-4 space-y-4 text-base text-muted">
                   <li>+91 9989908123 / +91 8374627501</li>
-                  <li>a.ekansh@gmail.com</li>
+                  <li>a.ekansh@yahoo.com</li>
                   <li>10-5-78, Tukaram Gate North, Lallaguda, Secunderabad, Telangana</li>
                 </ul>
               </div>
