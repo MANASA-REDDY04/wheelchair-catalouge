@@ -33,7 +33,7 @@ export default function AboutPage() {
                 As <b>Lakshmi Kubera Enterprises</b> (Kubera Mobility Solutions), we have been proudly serving as <strong>Railway Suppliers since 20 years</strong>. Our deep understanding of large-scale medical and institutional needs enables us to bridge the gap between quality healthcare equipment and accessibility.
               </p>
               <p>
-                We carefully curate our catalog, partnering only with trusted manufacturers. As authorized dealers of Wheelchair India and suppliers of Godrej and Wipro medical furniture, every product we offer is selected to provide maximum comfort and reliability for hospitals, NGOs, and institutions.
+                We carefully curate our catalog, partnering only with trusted manufacturers. As authorized dealers of Wheelchair India and suppliers of Godrej and Wipro  furniture, every product we offer is selected to provide maximum comfort and reliability for hospitals, NGOs, and institutions.
               </p>
               <p>
                 Our knowledgeable staff is always ready to guide you, understanding that each person&apos;s needs are unique and require personalized attention.
