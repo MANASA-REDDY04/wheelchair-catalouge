@@ -11,7 +11,7 @@ export default function ContactPage() {
     <div className="bg-bg-alt py-12 min-h-[calc(100vh-80px)]">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-extrabold text-foreground mb-4">Contact Us</h1>
+          <h1 className="text-4xl font-extrabold text-foreground mb-4">Contact US</h1>
           <p className="text-xl text-muted max-w-2xl mx-auto">
             Have a question or need help finding the perfect wheelchair? We are here to assist you quickly and effectively.
           </p>
